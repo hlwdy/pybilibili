@@ -73,6 +73,7 @@ while(quality_num<0 or quality_num>quality_len-1):
         pass
 print('选择清晰度| %s |成功'%video_info_list[quality_num]['quality'])
 vname=get_title(text)
+print('视频标题: %s'%vname)
 download(url,video_info_list[quality_num]['video_url'],video_info_list[quality_num]['audio_url'],'tmp')
 print('进行合并...')
 merge('tmp',vname)

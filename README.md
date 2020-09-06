@@ -3,6 +3,8 @@
 
 实现了多清晰度视频和音频下载、合并。
 
+目前引用了`requests,re,json,subprocess,BeautifulSoup`。
+
 音视频合并过程采用了命令行调用ffmpeg的方式，因此需要正确安装ffmpeg并配置环境变量。
 
 详细请见：
